@@ -14,10 +14,10 @@ class twitter(unittest.TestCase):
         time.sleep(2)
 
         user = driver.find_element_by_name("session[username_or_email]")
-        user.send_keys("totatotio")
+        user.send_keys("#user")
 
         contra = driver.find_element_by_name("session[password]")
-        contra.send_keys("38738048t")
+        contra.send_keys("#clave")
         contra.send_keys(Keys.ENTER)
         time.sleep(2)
 
@@ -31,10 +31,10 @@ class twitter(unittest.TestCase):
         time.sleep(2)
 
         user = driver.find_element_by_name("session[username_or_email]")
-        user.send_keys("totatotio")
+        user.send_keys("#user")
 
         contra = driver.find_element_by_name("session[password]")
-        contra.send_keys("toti38738048")
+        contra.send_keys("#claveErronea")
         contra.send_keys(Keys.ENTER)
         time.sleep(2)
 
