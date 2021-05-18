@@ -2,7 +2,8 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-class usando_unittest(unittest.TestCase):
+
+class santander(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path=r"C:\dchrome\chromedriver.exe")
 

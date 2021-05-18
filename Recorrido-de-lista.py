@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.keys import Keys
 import time
 
-class usando_unittest(unittest.TestCase):
+class listas(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path=r"C:\dchrome\chromedriver.exe")
