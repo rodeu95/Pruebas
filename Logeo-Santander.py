@@ -18,15 +18,15 @@ class usando_unittest(unittest.TestCase):
         driver.switch_to.window(driver.window_handles[1])
 
         dni = driver.find_element_by_name ("dni")
-        dni.send_keys("*dni*")
+        dni.send_keys("#dni")
         time.sleep(2)
 
         clave = driver.find_element_by_name ("clave")
-        clave.send_keys ("*clave*")
+        clave.send_keys ("#clave")
         time.sleep(2)
       
         usuario = driver.find_element_by_name("usuario")
-        usuario.send_keys ("*user*")
+        usuario.send_keys ("#user")
         usuario.send_keys (Keys.ENTER)
         time.sleep(4)
 
